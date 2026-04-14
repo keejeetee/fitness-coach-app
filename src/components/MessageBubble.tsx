@@ -22,7 +22,7 @@ export default function MessageBubble({ message }: MessageBubbleProps) {
       >
         {!isUser && (
           <span className="block text-[11px] font-mono text-accent/70 mb-1 uppercase tracking-wider">
-            Coach Alex
+            Coach Genesis
           </span>
         )}
         <p className="text-sm leading-relaxed whitespace-pre-wrap">

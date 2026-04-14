@@ -31,7 +31,7 @@ export default function EmptyState({ onSelectPrompt }: EmptyStateProps) {
         Fitness Coach
       </h1>
       <p className="text-text-secondary text-sm mb-8">
-        Powered by Coach Alex
+        Powered by Coach Genesis
       </p>
 
       <div className="flex flex-col gap-3 w-full max-w-sm">

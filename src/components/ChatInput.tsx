@@ -42,7 +42,7 @@ export default function ChatInput({ onSend, disabled }: ChatInputProps) {
           value={text}
           onChange={(e) => setText(e.target.value)}
           onKeyDown={handleKeyDown}
-          placeholder="Ask Coach Alex anything..."
+          placeholder="Ask Coach Genesis anything..."
           disabled={disabled}
           rows={1}
           className="flex-1 resize-none bg-bg-surface border border-border rounded-xl px-4 py-3 text-sm
