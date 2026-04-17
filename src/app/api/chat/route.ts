@@ -7,7 +7,10 @@ export async function POST(req: NextRequest) {
 
   const res = await fetch(WEBHOOK_URL, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: {
+      'Content-Type': 'application/json',
+      'bypass-tunnel-reminder': 'true',
+    },
     body: JSON.stringify(body),
   });
 
